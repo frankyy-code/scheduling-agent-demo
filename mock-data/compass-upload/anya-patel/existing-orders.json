@@ -1,0 +1,44 @@
+{
+  "patient": {
+    "patientId": "anya-patel",
+    "name": "Patel, Anya",
+    "firstName": "Anya",
+    "dob": "1988-04-03",
+    "sex": "F",
+    "mrn": "AP-100712",
+    "age": 37
+  },
+  "orders": [
+    {
+      "id": "ORD-AP-001",
+      "procedureType": "GI Consult",
+      "indication": "GI workup - details pending per PCP message.",
+      "orderingProvider": "Dr. Kevin Brooks, Primary Care",
+      "diagnoses": [],
+      "priorityFlags": ["Clarification required", "Referral incomplete"],
+      "requestedWindow": "Unknown",
+      "status": "Pending Review",
+      "placedAt": "2026-06-12T08:10:00Z"
+    },
+    {
+      "id": "ORD-AP-002",
+      "procedureType": "Colonoscopy",
+      "indication": "Possible bleeding vs hemorrhoids - procedure type not confirmed by referring clinic.",
+      "orderingProvider": "",
+      "diagnoses": [],
+      "priorityFlags": ["Clarification required", "Hold for review"],
+      "requestedWindow": "TBD after callback",
+      "status": "Pending Review",
+      "placedAt": "2026-06-12T08:12:00Z"
+    }
+  ],
+  "encounters": [
+    {
+      "id": "ENC-AP-101",
+      "date": "2026-06-11",
+      "type": "Referral Intake",
+      "provider": "Access Center",
+      "summary": "Faxed referral missing ICD-10 codes and ordering provider signature. Patient reported rectal bleeding but no symptom documentation attached."
+    }
+  ]
+}

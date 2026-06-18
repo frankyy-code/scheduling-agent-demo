@@ -1,0 +1,46 @@
+{
+  "patientId": "robert-tan",
+  "mrn": "RT-100891",
+  "symptoms": [
+    {
+      "name": "Rectal bleeding",
+      "onset": "2026-03-15",
+      "severity": "moderate",
+      "duration": "3 months",
+      "source": "patient-reported"
+    },
+    {
+      "name": "Iron-deficiency anemia",
+      "onset": "2026-05-01",
+      "severity": "mild",
+      "duration": "6 weeks",
+      "icd10": "D50.9",
+      "source": "clinician-documented"
+    },
+    {
+      "name": "Fatigue",
+      "onset": "2026-04-01",
+      "severity": "mild",
+      "duration": "2 months",
+      "source": "patient-reported"
+    }
+  ],
+  "activeConditions": [
+    "Suspected colorectal lesion",
+    "Atrial fibrillation",
+    "Obstructive sleep apnea (mild)",
+    "Obesity (BMI 31)"
+  ],
+  "medications": [
+    "Apixaban 5mg BID",
+    "Metoprolol 25mg daily"
+  ],
+  "allergies": [],
+  "schedulingConstraints": [
+    "Apixaban hold 3-5 days required before invasive procedures",
+    "Bridge plan required for surgery",
+    "BMI 31 + OSA — anesthesia-supervised MAC required (not basic endoscopy room)",
+    "Lives alone — escort mandatory for all sedated procedures",
+    "CPAP use at home — notify anesthesia"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "patientId": "anya-patel",
+  "triggerLabel": "No add-on order",
+  "placedBy": null,
+  "placedAt": null,
+  "reason": "Case held for clarification — no add-on orders until referral is corrected",
+  "order": null,
+  "dependencyImpact": []
+}

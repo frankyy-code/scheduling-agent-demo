@@ -1,0 +1,18 @@
+{
+  "patientId": "james-miller",
+  "mrn": "JM-100445",
+  "symptoms": [],
+  "activeConditions": [
+    "History of colonic polyps",
+    "Hypertension (controlled)"
+  ],
+  "medications": [
+    "Lisinopril 10mg daily",
+    "Aspirin 81mg daily"
+  ],
+  "allergies": [],
+  "schedulingConstraints": [
+    "Standard moderate sedation acceptable",
+    "No escort constraint documented — verify at scheduling"
+  ]
+}

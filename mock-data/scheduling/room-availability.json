@@ -1,0 +1,209 @@
+{
+  "rooms": [
+    {
+      "roomId": "CLINIC-GI-A",
+      "name": "GI Clinic Room A",
+      "facility": "Mayo Clinic - Florida",
+      "capabilities": ["clinic-exam", "telehealth"],
+      "slots": [
+        { "start": "2026-06-19T08:00:00", "end": "2026-06-19T17:00:00", "status": "open" },
+        { "start": "2026-06-20T08:00:00", "end": "2026-06-20T17:00:00", "status": "open" },
+        { "start": "2026-06-23T09:00:00", "end": "2026-06-23T12:00:00", "status": "open" }
+      ]
+    },
+    {
+      "roomId": "CLINIC-GI-B",
+      "name": "GI Clinic Room B",
+      "facility": "Mayo Clinic - Florida",
+      "capabilities": ["clinic-exam", "telehealth"],
+      "slots": [
+        { "start": "2026-06-19T13:00:00", "end": "2026-06-19T17:00:00", "status": "open" },
+        { "start": "2026-06-22T08:00:00", "end": "2026-06-22T12:00:00", "status": "open" },
+        { "start": "2026-06-24T14:00:00", "end": "2026-06-24T17:00:00", "status": "open" }
+      ]
+    },
+    {
+      "roomId": "CLINIC-SURG-1",
+      "name": "Colorectal Surgery Clinic 1",
+      "facility": "Mayo Clinic - Florida",
+      "capabilities": ["clinic-exam", "multidisciplinary-conference"],
+      "slots": [
+        { "start": "2026-06-20T08:00:00", "end": "2026-06-20T11:00:00", "status": "open" },
+        { "start": "2026-06-25T08:00:00", "end": "2026-06-25T11:00:00", "status": "open" }
+      ]
+    },
+    {
+      "roomId": "CLINIC-ONC-2",
+      "name": "Medical Oncology Consult 2",
+      "facility": "Mayo Clinic - Florida",
+      "capabilities": ["clinic-exam", "telehealth"],
+      "slots": [
+        { "start": "2026-06-21T09:00:00", "end": "2026-06-21T12:00:00", "status": "open" },
+        { "start": "2026-06-26T09:00:00", "end": "2026-06-26T12:00:00", "status": "open" }
+      ]
+    },
+    {
+      "roomId": "PREOP-BAY-1",
+      "name": "Pre-Op Assessment Bay 1",
+      "facility": "Mayo Clinic - Florida",
+      "capabilities": ["clinic-exam", "pre-procedure-clearance"],
+      "slots": [
+        { "start": "2026-06-22T13:00:00", "end": "2026-06-22T16:00:00", "status": "open" },
+        { "start": "2026-06-25T13:00:00", "end": "2026-06-25T16:00:00", "status": "open" }
+      ]
+    },
+    {
+      "roomId": "ENDO-101",
+      "name": "Endoscopy Suite 101",
+      "facility": "Mayo Clinic - Florida",
+      "capabilities": ["moderate-sedation"],
+      "slots": [
+        { "start": "2026-06-23T13:00:00", "end": "2026-06-23T15:00:00", "status": "open" },
+        { "start": "2026-06-24T10:00:00", "end": "2026-06-24T12:00:00", "status": "open" },
+        { "start": "2026-06-27T10:00:00", "end": "2026-06-27T12:00:00", "status": "open" }
+      ]
+    },
+    {
+      "roomId": "ENDO-102",
+      "name": "Endoscopy Suite 102 (MAC-capable)",
+      "facility": "Mayo Clinic - Florida",
+      "capabilities": ["moderate-sedation", "anesthesia-supervised-mac", "recovery-bay"],
+      "slots": [
+        { "start": "2026-06-22T08:00:00", "end": "2026-06-22T12:00:00", "status": "open" },
+        { "start": "2026-06-24T07:00:00", "end": "2026-06-24T11:00:00", "status": "booked" },
+        { "start": "2026-06-27T07:00:00", "end": "2026-06-27T11:00:00", "status": "open" }
+      ]
+    },
+    {
+      "roomId": "ENDO-103",
+      "name": "Endoscopy Suite 103 (EUS)",
+      "facility": "Mayo Clinic - Florida",
+      "capabilities": ["moderate-sedation", "eus-staging"],
+      "slots": [
+        { "start": "2026-06-23T08:00:00", "end": "2026-06-23T11:00:00", "status": "open" },
+        { "start": "2026-06-26T08:00:00", "end": "2026-06-26T11:00:00", "status": "open" }
+      ]
+    },
+    {
+      "roomId": "ENDO-104",
+      "name": "Endoscopy Suite 104 (MAC + EUS)",
+      "facility": "Mayo Clinic - Florida",
+      "capabilities": ["moderate-sedation", "anesthesia-supervised-mac", "eus-staging", "recovery-bay"],
+      "slots": [
+        { "start": "2026-06-22T13:00:00", "end": "2026-06-22T16:00:00", "status": "open" },
+        { "start": "2026-06-25T07:00:00", "end": "2026-06-25T11:00:00", "status": "open" }
+      ]
+    },
+    {
+      "roomId": "OR-3",
+      "name": "Operating Room 3",
+      "facility": "Mayo Clinic - Florida",
+      "capabilities": ["general-anesthesia", "laparoscopic"],
+      "slots": [
+        { "start": "2026-06-24T07:30:00", "end": "2026-06-24T11:30:00", "status": "open" },
+        { "start": "2026-06-27T07:30:00", "end": "2026-06-27T11:30:00", "status": "open" }
+      ]
+    },
+    {
+      "roomId": "OR-5",
+      "name": "Operating Room 5 (Colorectal)",
+      "facility": "Mayo Clinic - Florida",
+      "capabilities": ["general-anesthesia", "laparoscopic", "colorectal"],
+      "slots": [
+        { "start": "2026-06-23T07:30:00", "end": "2026-06-23T11:30:00", "status": "open" },
+        { "start": "2026-06-26T07:30:00", "end": "2026-06-26T11:30:00", "status": "open" }
+      ]
+    },
+    {
+      "roomId": "OR-7",
+      "name": "Operating Room 7 (Robotic)",
+      "facility": "Mayo Clinic - Florida",
+      "capabilities": ["general-anesthesia", "laparoscopic", "robotic", "colorectal"],
+      "slots": [
+        { "start": "2026-06-25T07:30:00", "end": "2026-06-25T11:30:00", "status": "open" },
+        { "start": "2026-06-28T07:30:00", "end": "2026-06-28T11:30:00", "status": "open" }
+      ]
+    },
+    {
+      "roomId": "IMG-CT-1",
+      "name": "CT Scanner 1",
+      "facility": "Mayo Clinic - Florida",
+      "capabilities": ["ct-scan", "diagnostic-imaging", "contrast-protocol"],
+      "slots": [
+        { "start": "2026-06-22T09:00:00", "end": "2026-06-22T10:00:00", "status": "open" },
+        { "start": "2026-06-24T15:00:00", "end": "2026-06-24T16:00:00", "status": "open" },
+        { "start": "2026-06-27T14:00:00", "end": "2026-06-27T15:00:00", "status": "open" }
+      ]
+    },
+    {
+      "roomId": "IMG-MRI-2",
+      "name": "MRI Suite 2",
+      "facility": "Mayo Clinic - Florida",
+      "capabilities": ["mri", "diagnostic-imaging"],
+      "slots": [
+        { "start": "2026-06-23T14:00:00", "end": "2026-06-23T16:00:00", "status": "open" },
+        { "start": "2026-06-26T14:00:00", "end": "2026-06-26T16:00:00", "status": "open" }
+      ]
+    },
+    {
+      "roomId": "IMG-PET-1",
+      "name": "PET-CT Bay",
+      "facility": "Mayo Clinic - Florida",
+      "capabilities": ["pet-ct", "diagnostic-imaging", "ct-scan"],
+      "slots": [
+        { "start": "2026-06-25T10:00:00", "end": "2026-06-25T11:30:00", "status": "open" },
+        { "start": "2026-06-28T10:00:00", "end": "2026-06-28T11:30:00", "status": "open" }
+      ]
+    },
+    {
+      "roomId": "PACU-MAIN",
+      "name": "PACU Main",
+      "facility": "Mayo Clinic - Florida",
+      "capabilities": ["recovery-bay", "emergence-monitoring"],
+      "slots": [
+        { "start": "2026-06-24T07:30:00", "end": "2026-06-24T12:00:00", "status": "booked" },
+        { "start": "2026-06-27T07:30:00", "end": "2026-06-27T12:00:00", "status": "open" }
+      ]
+    },
+    {
+      "roomId": "PACU-EAST",
+      "name": "PACU East",
+      "facility": "Mayo Clinic - Florida",
+      "capabilities": ["recovery-bay", "emergence-monitoring", "extended-monitoring"],
+      "slots": [
+        { "start": "2026-06-23T07:30:00", "end": "2026-06-23T12:00:00", "status": "open" },
+        { "start": "2026-06-26T07:30:00", "end": "2026-06-26T12:00:00", "status": "open" },
+        { "start": "2026-06-27T07:30:00", "end": "2026-06-27T12:00:00", "status": "open" }
+      ]
+    },
+    {
+      "roomId": "BED-MS-412",
+      "name": "Med-Surg 412",
+      "facility": "Mayo Clinic - Florida",
+      "capabilities": ["inpatient-bed", "post-surgical"],
+      "slots": [
+        { "start": "2026-06-24T12:00:00", "end": "2026-06-28T12:00:00", "status": "booked" },
+        { "start": "2026-06-27T12:00:00", "end": "2026-07-01T12:00:00", "status": "open" }
+      ]
+    },
+    {
+      "roomId": "BED-MS-418",
+      "name": "Med-Surg 418",
+      "facility": "Mayo Clinic - Florida",
+      "capabilities": ["inpatient-bed", "post-surgical", "cardiac-monitoring"],
+      "slots": [
+        { "start": "2026-06-25T12:00:00", "end": "2026-06-29T12:00:00", "status": "open" },
+        { "start": "2026-06-28T12:00:00", "end": "2026-07-02T12:00:00", "status": "open" }
+      ]
+    }
+  ],
+  "demoConstraints": {
+    "tuesdayOrNoPacu": {
+      "description": "Tuesday OR slot available but PACU and inpatient bed not projected — agent recommends Friday instead",
+      "orSlot": "2026-06-24T07:30:00",
+      "pacuAvailable": false,
+      "inpatientBedAvailable": false,
+      "recommendedAlternative": "2026-06-27T07:30:00"
+    }
+  }
+}

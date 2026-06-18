@@ -1,0 +1,26 @@
+{
+  "patientId": "sofia-nguyen",
+  "triggerLabel": "Apply Oncology Restaging Add-on Order",
+  "placedBy": "Dr. James Park, GI",
+  "placedAt": "2026-06-13T09:00:00Z",
+  "reason": "GI requests synchronized anesthesia planning for EUS + colonoscopy bundle",
+  "order": {
+    "id": "ORD-SN-ADDON-001",
+    "procedureType": "Anesthesia Planning - Multi-procedure Bundle",
+    "indication": "Coordinate MAC-capable block for EUS and colonoscopy in same encounter window.",
+    "orderingProvider": "Dr. James Park, GI",
+    "diagnoses": ["C20 - Malignant neoplasm of rectum"],
+    "priorityFlags": ["Additional series requested", "Heavy sedation room required"],
+    "requestedWindow": "Align with EUS order window",
+    "status": "New",
+    "placedAt": "2026-06-13T09:00:00Z"
+  },
+  "dependencyImpact": [
+    {
+      "stepId": 2,
+      "stepName": "Colonoscopy + EUS bundle",
+      "impact": "unblocks",
+      "note": "Anesthesia planning order allows MAC suite hold once procedure access intake is complete"
+    }
+  ]
+}

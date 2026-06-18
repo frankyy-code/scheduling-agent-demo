@@ -1,0 +1,33 @@
+{
+  "patient": {
+    "patientId": "david-williams",
+    "name": "Williams, David",
+    "firstName": "David",
+    "dob": "1979-01-19",
+    "sex": "M",
+    "mrn": "DW-100556",
+    "age": 46
+  },
+  "orders": [
+    {
+      "id": "ORD-DW-001",
+      "procedureType": "Colonoscopy - Diagnostic",
+      "indication": "Positive FIT test in screening program. No GI symptoms. Patient appropriate for standard moderate sedation colonoscopy.",
+      "orderingProvider": "Dr. Emily Carter, Primary Care",
+      "diagnoses": ["R19.5 - Other fecal abnormalities", "Z12.11 - Screening for malignant neoplasm of colon"],
+      "priorityFlags": [],
+      "requestedWindow": "Within 60 days",
+      "status": "Pending Review",
+      "placedAt": "2026-06-08T11:00:00Z"
+    }
+  ],
+  "encounters": [
+    {
+      "id": "ENC-DW-201",
+      "date": "2026-06-06",
+      "type": "Office Visit",
+      "provider": "Dr. Emily Carter, Primary Care",
+      "summary": "46M with positive FIT. No anemia, weight loss, or bleeding. Referred for diagnostic colonoscopy per screening pathway."
+    }
+  ]
+}

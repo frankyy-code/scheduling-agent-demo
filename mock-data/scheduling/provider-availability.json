@@ -1,0 +1,55 @@
+{
+  "providers": [
+    {
+      "providerId": "GI-001",
+      "name": "Dr. James Park",
+      "specialty": "Gastroenterology",
+      "facility": "Mayo Clinic - Florida",
+      "slots": [
+        { "start": "2026-06-19T08:00:00", "end": "2026-06-19T08:30:00", "appointmentTypes": ["GI Consult"], "blockType": "clinic" },
+        { "start": "2026-06-20T09:00:00", "end": "2026-06-20T09:30:00", "appointmentTypes": ["GI Consult"], "blockType": "clinic" },
+        { "start": "2026-06-23T13:00:00", "end": "2026-06-23T14:00:00", "appointmentTypes": ["Colonoscopy"], "blockType": "endoscopy" }
+      ]
+    },
+    {
+      "providerId": "GI-002",
+      "name": "Dr. Lisa Nguyen",
+      "specialty": "Gastroenterology",
+      "facility": "Mayo Clinic - Florida",
+      "slots": [
+        { "start": "2026-06-24T10:00:00", "end": "2026-06-24T10:30:00", "appointmentTypes": ["Colonoscopy - Surveillance"], "blockType": "endoscopy" },
+        { "start": "2026-06-25T14:00:00", "end": "2026-06-25T14:30:00", "appointmentTypes": ["GI Follow-up"], "blockType": "clinic" }
+      ]
+    },
+    {
+      "providerId": "ANES-001",
+      "name": "Dr. Patricia Moore",
+      "specialty": "Anesthesiology",
+      "facility": "Mayo Clinic - Florida",
+      "slots": [
+        { "start": "2026-06-23T13:00:00", "end": "2026-06-23T15:00:00", "appointmentTypes": ["MAC Sedation", "Pre-op Eval"], "blockType": "clinic" },
+        { "start": "2026-06-24T07:00:00", "end": "2026-06-24T12:00:00", "appointmentTypes": ["OR Anesthesia"], "blockType": "OR" }
+      ]
+    },
+    {
+      "providerId": "CARD-001",
+      "name": "Dr. Robert Hayes",
+      "specialty": "Cardiology",
+      "facility": "Mayo Clinic - Florida",
+      "slots": [
+        { "start": "2026-06-18T10:00:00", "end": "2026-06-18T10:30:00", "appointmentTypes": ["Cardiology Clearance"], "blockType": "clinic" },
+        { "start": "2026-06-20T11:00:00", "end": "2026-06-20T11:30:00", "appointmentTypes": ["Cardiology Clearance"], "blockType": "clinic" }
+      ]
+    },
+    {
+      "providerId": "SURG-001",
+      "name": "Dr. Amanda Foster",
+      "specialty": "Colorectal Surgery",
+      "facility": "Mayo Clinic - Florida",
+      "slots": [
+        { "start": "2026-06-24T07:30:00", "end": "2026-06-24T11:30:00", "appointmentTypes": ["Laparoscopic Colectomy"], "blockType": "OR" },
+        { "start": "2026-06-27T07:30:00", "end": "2026-06-27T11:30:00", "appointmentTypes": ["Laparoscopic Colectomy"], "blockType": "OR" }
+      ]
+    }
+  ]
+}

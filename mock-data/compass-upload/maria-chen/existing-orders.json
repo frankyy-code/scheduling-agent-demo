@@ -1,0 +1,51 @@
+{
+  "patient": {
+    "patientId": "maria-chen",
+    "name": "Chen, Maria",
+    "firstName": "Maria",
+    "dob": "1962-08-14",
+    "sex": "F",
+    "mrn": "MC-100234",
+    "age": 62
+  },
+  "orders": [
+    {
+      "id": "ORD-MC-001",
+      "procedureType": "GI Consult - New Patient",
+      "indication": "Persistent abdominal pain, iron-deficiency anemia, unintentional weight loss. CT abdomen/pelvis concerning for colorectal lesion.",
+      "orderingProvider": "Dr. Sarah Williams, Primary Care",
+      "diagnoses": ["R19.4 - Change in bowel habit", "D50.9 - Iron deficiency anemia", "R63.4 - Abnormal weight loss"],
+      "priorityFlags": ["Suspected malignancy", "Red flag symptoms"],
+      "requestedWindow": "Within 7 days",
+      "status": "Pending Review",
+      "placedAt": "2026-06-10T09:15:00Z"
+    },
+    {
+      "id": "ORD-MC-002",
+      "procedureType": "Colonoscopy with Biopsy",
+      "indication": "Diagnostic evaluation for suspected colorectal cancer. Requires sedation clearance due to anticoagulation and cardiac history.",
+      "orderingProvider": "Dr. James Park, GI (pending consult)",
+      "diagnoses": ["K63.5 - Polyp of colon", "C18.9 - Malignant neoplasm of colon, unspecified"],
+      "priorityFlags": ["Suspected malignancy", "Anticoagulation hold required"],
+      "requestedWindow": "Within 14 days of GI consult",
+      "status": "Pending Review",
+      "placedAt": "2026-06-10T09:20:00Z"
+    }
+  ],
+  "encounters": [
+    {
+      "id": "ENC-MC-101",
+      "date": "2026-06-08",
+      "type": "Office Visit",
+      "provider": "Dr. Sarah Williams, Primary Care",
+      "summary": "Patient reports 3-month history of abdominal pain, fatigue, and 12 lb weight loss. Hemoglobin 9.2 g/dL. CT shows thickening of sigmoid colon. Referred urgently to GI."
+    },
+    {
+      "id": "ENC-MC-102",
+      "date": "2026-06-05",
+      "type": "Lab",
+      "provider": "Lab Services",
+      "summary": "CBC: Hgb 9.2, MCV 72. BMP: Cr 1.4 (baseline CKD stage 3). Coag panel pending."
+    }
+  ]
+}

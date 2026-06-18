@@ -1,0 +1,27 @@
+{
+  "patientId": "sofia-nguyen",
+  "mrn": "SN-100903",
+  "symptoms": [
+    {
+      "name": "Rectal discomfort",
+      "onset": "2026-04-01",
+      "severity": "mild",
+      "duration": "ongoing during treatment",
+      "source": "clinician-documented"
+    }
+  ],
+  "activeConditions": [
+    "Rectal adenocarcinoma on neoadjuvant therapy",
+    "Type 2 diabetes mellitus"
+  ],
+  "medications": [
+    "Capecitabine per oncology protocol",
+    "Metformin 500mg BID"
+  ],
+  "allergies": [],
+  "schedulingConstraints": [
+    "Multi-step endoscopy series must be coordinated with oncology treatment calendar",
+    "Anticoagulation hold required before invasive steps",
+    "Pathology turnaround gates downstream CT scheduling"
+  ]
+}

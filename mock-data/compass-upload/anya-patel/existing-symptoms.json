@@ -1,0 +1,20 @@
+{
+  "patientId": "anya-patel",
+  "mrn": "AP-100712",
+  "symptoms": [
+    {
+      "name": "Rectal bleeding",
+      "onset": "2026-05-20",
+      "severity": "unknown",
+      "duration": "unclear",
+      "source": "patient-reported"
+    }
+  ],
+  "activeConditions": [],
+  "medications": [],
+  "allergies": [],
+  "schedulingConstraints": [
+    "Awaiting PCP callback to confirm clinical indication and correct procedure request",
+    "Do not schedule until referral package is complete"
+  ]
+}

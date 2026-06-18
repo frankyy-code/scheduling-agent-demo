@@ -1,0 +1,46 @@
+{
+  "patientId": "maria-chen",
+  "mrn": "MC-100234",
+  "symptoms": [
+    {
+      "name": "Abdominal pain",
+      "onset": "2026-03-01",
+      "severity": "moderate",
+      "duration": "3 months",
+      "source": "patient-reported"
+    },
+    {
+      "name": "Iron-deficiency anemia",
+      "onset": "2026-05-15",
+      "severity": "moderate",
+      "duration": "6 weeks",
+      "icd10": "D50.9",
+      "source": "clinician-documented"
+    },
+    {
+      "name": "Unintentional weight loss",
+      "onset": "2026-04-01",
+      "severity": "moderate",
+      "duration": "2 months",
+      "source": "patient-reported"
+    }
+  ],
+  "activeConditions": [
+    "Suspected colorectal cancer",
+    "Type 2 diabetes mellitus",
+    "Chronic kidney disease stage 3",
+    "Atrial fibrillation"
+  ],
+  "medications": [
+    "Warfarin 5mg daily",
+    "Metformin 1000mg BID",
+    "Metoprolol 50mg daily"
+  ],
+  "allergies": ["Penicillin - rash"],
+  "schedulingConstraints": [
+    "Anticoagulation - hold window required before invasive procedures",
+    "Renal-safe bowel prep required (CKD stage 3)",
+    "Cardiology clearance may be required before sedation",
+    "Escort required for post-sedation discharge"
+  ]
+}

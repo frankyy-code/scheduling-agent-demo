@@ -1,0 +1,22 @@
+{
+  "patientId": "maria-chen",
+  "triggerLabel": "Apply Cardiology Clearance Order",
+  "placedBy": "Dr. James Park, GI",
+  "placedAt": "2026-06-12T11:00:00Z",
+  "reason": "Patient on warfarin with AFib — cardiology clearance required before colonoscopy sedation",
+  "order": {
+    "id": "ORD-MC-ADDON-001",
+    "procedureType": "Cardiology Consult - Pre-procedure Clearance",
+    "indication": "Atrial fibrillation on warfarin. Assess fitness for moderate sedation and plan anticoagulation hold.",
+    "orderingProvider": "Dr. James Park, GI",
+    "diagnoses": ["I48.91 - Atrial fibrillation", "Z01.810 - Pre-procedural cardiovascular exam"],
+    "priorityFlags": ["Required before colonoscopy"],
+    "requestedWindow": "Before colonoscopy — within 5 days",
+    "status": "New",
+    "placedAt": "2026-06-12T11:00:00Z"
+  },
+  "dependencyImpact": [
+    { "stepId": 2, "stepName": "Pre-procedure check and clearance", "impact": "unblocks", "note": "Cardiology input now ordered — colonoscopy blocked until clearance complete" },
+    { "stepId": 4, "stepName": "Diagnostic colonoscopy with biopsy", "impact": "blocked", "note": "Cannot schedule until cardiology clearance and anticoagulation hold plan finalized" }
+  ]
+}

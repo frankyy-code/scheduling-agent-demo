@@ -1,0 +1,55 @@
+{
+  "patient": {
+    "patientId": "robert-tan",
+    "name": "Tan, Robert",
+    "firstName": "Robert",
+    "dob": "1967-11-22",
+    "sex": "M",
+    "mrn": "RT-100891",
+    "age": 58
+  },
+  "orders": [
+    {
+      "id": "ORD-RT-001",
+      "procedureType": "GI Consult - New Patient",
+      "indication": "Iron-deficiency anemia and intermittent rectal bleeding over 3 months. Likely colorectal lesion.",
+      "orderingProvider": "Dr. Michael Chen, Primary Care",
+      "diagnoses": ["K62.5 - Hemorrhage of anus and rectum", "D50.9 - Iron deficiency anemia"],
+      "priorityFlags": ["Suspected malignancy", "Red flag symptoms"],
+      "requestedWindow": "Within 7 days",
+      "status": "Pending Review",
+      "placedAt": "2026-06-11T10:30:00Z"
+    },
+    {
+      "id": "ORD-RT-002",
+      "procedureType": "Colonoscopy with Biopsy",
+      "indication": "Diagnostic colonoscopy for rectal bleeding and anemia. Elevated sedation risk (BMI 31, OSA).",
+      "orderingProvider": "Dr. Michael Chen, Primary Care",
+      "diagnoses": ["K63.5 - Polyp of colon"],
+      "priorityFlags": ["Heavy sedation room required", "Anticoagulation hold required"],
+      "requestedWindow": "Within 14 days",
+      "status": "Pending Review",
+      "placedAt": "2026-06-11T10:35:00Z"
+    },
+    {
+      "id": "ORD-RT-003",
+      "procedureType": "CT Chest/Abdomen/Pelvis with Contrast",
+      "indication": "Systemic staging if malignancy confirmed on biopsy",
+      "orderingProvider": "Dr. Michael Chen, Primary Care",
+      "diagnoses": ["Z12.11 - Screening for malignant neoplasm of colon"],
+      "priorityFlags": ["Pending pathology gate"],
+      "requestedWindow": "After pathology read (3-5 business days)",
+      "status": "Pending Review",
+      "placedAt": "2026-06-11T10:40:00Z"
+    }
+  ],
+  "encounters": [
+    {
+      "id": "ENC-RT-201",
+      "date": "2026-06-09",
+      "type": "Office Visit",
+      "provider": "Dr. Michael Chen, Primary Care",
+      "summary": "58M with 3 months rectal bleeding and anemia. BMI 31, OSA on CPAP. On apixaban for AFib. Lives alone — needs escort for sedated procedures. Referred to GI."
+    }
+  ]
+}

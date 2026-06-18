@@ -1,0 +1,9 @@
+{
+  "patientId": "james-miller",
+  "triggerLabel": "No add-on order",
+  "placedBy": null,
+  "placedAt": null,
+  "reason": "Routine surveillance case — no physician add-on orders expected",
+  "order": null,
+  "dependencyImpact": []
+}

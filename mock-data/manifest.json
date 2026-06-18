@@ -1,0 +1,66 @@
+{
+  "patients": {
+    "maria-chen": {
+      "mrn": "MC-100234",
+      "displayName": "Chen, Maria",
+      "patientId": "maria-chen",
+      "compassUploads": {
+        "existingOrders": "compass-upload/maria-chen/existing-orders.json",
+        "existingSymptoms": "compass-upload/maria-chen/existing-symptoms.json",
+        "clinicalSummary": "compass-upload/maria-chen/clinical-summary.md"
+      },
+      "additionalOrder": "scheduling/additional-orders/maria-chen-cardiology-clearance.json"
+    },
+    "robert-tan": {
+      "mrn": "RT-100891",
+      "displayName": "Tan, Robert",
+      "patientId": "robert-tan",
+      "compassUploads": {
+        "existingOrders": "compass-upload/robert-tan/existing-orders.json",
+        "existingSymptoms": "compass-upload/robert-tan/existing-symptoms.json",
+        "clinicalSummary": "compass-upload/robert-tan/clinical-summary.md"
+      },
+      "additionalOrder": "scheduling/additional-orders/robert-tan-anticoag-bridge.json"
+    },
+    "james-miller": {
+      "mrn": "JM-100445",
+      "displayName": "Miller, James",
+      "patientId": "james-miller",
+      "compassUploads": {
+        "existingOrders": "compass-upload/james-miller/existing-orders.json",
+        "existingSymptoms": "compass-upload/james-miller/existing-symptoms.json"
+      },
+      "additionalOrder": "scheduling/additional-orders/james-miller-none.json"
+    },
+    "anya-patel": {
+      "mrn": "AP-100712",
+      "displayName": "Patel, Anya",
+      "patientId": "anya-patel",
+      "compassUploads": {
+        "existingOrders": "compass-upload/anya-patel/existing-orders.json",
+        "existingSymptoms": "compass-upload/anya-patel/existing-symptoms.json"
+      },
+      "additionalOrder": "scheduling/additional-orders/anya-patel-none.json"
+    },
+    "david-williams": {
+      "mrn": "DW-100556",
+      "displayName": "Williams, David",
+      "patientId": "david-williams",
+      "compassUploads": {
+        "existingOrders": "compass-upload/david-williams/existing-orders.json",
+        "existingSymptoms": "compass-upload/david-williams/existing-symptoms.json"
+      },
+      "additionalOrder": "scheduling/additional-orders/david-williams-none.json"
+    },
+    "sofia-nguyen": {
+      "mrn": "SN-100903",
+      "displayName": "Nguyen, Sofia",
+      "patientId": "sofia-nguyen",
+      "compassUploads": {
+        "existingOrders": "compass-upload/sofia-nguyen/existing-orders.json",
+        "existingSymptoms": "compass-upload/sofia-nguyen/existing-symptoms.json"
+      },
+      "additionalOrder": "scheduling/additional-orders/sofia-nguyen-anesthesia-bundle.json"
+    }
+  }
+}

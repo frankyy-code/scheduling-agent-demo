@@ -1,0 +1,12 @@
+{
+  "patientId": "david-williams",
+  "mrn": "DW-100556",
+  "symptoms": [],
+  "activeConditions": ["Hypertension (controlled)"],
+  "medications": ["Amlodipine 5mg daily"],
+  "allergies": [],
+  "schedulingConstraints": [
+    "Standard moderate sedation acceptable",
+    "No escort constraint documented — verify at scheduling"
+  ]
+}

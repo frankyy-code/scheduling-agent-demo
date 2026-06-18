@@ -1,0 +1,22 @@
+{
+  "patientId": "robert-tan",
+  "triggerLabel": "Apply Anticoagulation Bridge Plan Order",
+  "placedBy": "Dr. James Park, GI",
+  "placedAt": "2026-06-12T14:30:00Z",
+  "reason": "Apixaban bridge plan required before laparoscopic colectomy — pharmacy and cardiology coordination",
+  "order": {
+    "id": "ORD-RT-ADDON-001",
+    "procedureType": "Anticoagulation Bridge Plan",
+    "indication": "Apixaban management for AFib around colonoscopy and planned resection. Bridge to LMWH per protocol.",
+    "orderingProvider": "Dr. James Park, GI",
+    "diagnoses": ["I48.91 - Atrial fibrillation", "Z79.01 - Long term use of anticoagulants"],
+    "priorityFlags": ["Required before surgery", "Pharmacy review"],
+    "requestedWindow": "Complete 7 days before OR date",
+    "status": "New",
+    "placedAt": "2026-06-12T14:30:00Z"
+  },
+  "dependencyImpact": [
+    { "stepId": 7, "stepName": "Pre-surgical optimization", "impact": "unblocks", "note": "Bridge plan ordered — OR slot can be held tentatively once plan confirmed" },
+    { "stepId": 8, "stepName": "Colorectal surgery", "impact": "blocked", "note": "Tuesday OR invalid — apixaban hold window not satisfied and no PACU/inpatient bed" }
+  ]
+}

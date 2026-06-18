@@ -1,0 +1,55 @@
+{
+  "patient": {
+    "patientId": "sofia-nguyen",
+    "name": "Nguyen, Sofia",
+    "firstName": "Sofia",
+    "dob": "1968-09-27",
+    "sex": "F",
+    "mrn": "SN-100903",
+    "age": 57
+  },
+  "orders": [
+    {
+      "id": "ORD-SN-001",
+      "procedureType": "EUS with FNA - Restaging",
+      "indication": "Restaging local disease after neoadjuvant therapy. Additional endoscopy series requested by oncology.",
+      "orderingProvider": "Dr. Rachel Kim, Medical Oncology",
+      "diagnoses": ["C20 - Malignant neoplasm of rectum", "Z85.038 - Personal history of other malignant neoplasm of large intestine"],
+      "priorityFlags": ["Additional series requested", "Suspected malignancy"],
+      "requestedWindow": "Within 14 days",
+      "status": "Pending Review",
+      "placedAt": "2026-06-10T15:20:00Z"
+    },
+    {
+      "id": "ORD-SN-002",
+      "procedureType": "Colonoscopy with Biopsy",
+      "indication": "Synchronized endoscopic assessment before restaging CT. Anticoagulation hold required.",
+      "orderingProvider": "Dr. Rachel Kim, Medical Oncology",
+      "diagnoses": ["C20 - Malignant neoplasm of rectum"],
+      "priorityFlags": ["Anticoagulation hold required", "Pathology gate"],
+      "requestedWindow": "Within 14 days of EUS",
+      "status": "Pending Review",
+      "placedAt": "2026-06-10T15:25:00Z"
+    },
+    {
+      "id": "ORD-SN-003",
+      "procedureType": "CT Chest/Abdomen/Pelvis with Contrast",
+      "indication": "Systemic restaging after endoscopic series if pathology confirms progression.",
+      "orderingProvider": "Dr. Rachel Kim, Medical Oncology",
+      "diagnoses": ["C20 - Malignant neoplasm of rectum"],
+      "priorityFlags": ["Pending pathology gate", "Multi-step staging"],
+      "requestedWindow": "After pathology read (3-5 business days)",
+      "status": "Pending Review",
+      "placedAt": "2026-06-10T15:30:00Z"
+    }
+  ],
+  "encounters": [
+    {
+      "id": "ENC-SN-301",
+      "date": "2026-06-09",
+      "type": "Oncology Visit",
+      "provider": "Dr. Rachel Kim, Medical Oncology",
+      "summary": "57F with rectal cancer on neoadjuvant therapy. Restaging EUS plus colonoscopy requested as coordinated additional series before CT restaging."
+    }
+  ]
+}

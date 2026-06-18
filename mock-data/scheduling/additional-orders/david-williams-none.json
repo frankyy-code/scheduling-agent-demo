@@ -1,0 +1,9 @@
+{
+  "patientId": "david-williams",
+  "triggerLabel": "No add-on order",
+  "placedBy": null,
+  "placedAt": null,
+  "reason": "Standard screening colonoscopy — no add-on orders expected",
+  "order": null,
+  "dependencyImpact": []
+}

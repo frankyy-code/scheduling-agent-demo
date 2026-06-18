@@ -1,0 +1,33 @@
+{
+  "patient": {
+    "patientId": "james-miller",
+    "name": "Miller, James",
+    "firstName": "James",
+    "dob": "1954-02-18",
+    "sex": "M",
+    "mrn": "JM-100445",
+    "age": 71
+  },
+  "orders": [
+    {
+      "id": "ORD-JM-001",
+      "procedureType": "Colonoscopy - Surveillance",
+      "indication": "Routine surveillance colonoscopy. History of adenomatous polyp removed 2023. No current symptoms.",
+      "orderingProvider": "Dr. Lisa Nguyen, GI",
+      "diagnoses": ["Z12.11 - Screening for malignant neoplasm of colon", "Z86.010 - Personal history of colonic polyps"],
+      "priorityFlags": [],
+      "requestedWindow": "Within 90 days",
+      "status": "Pending Review",
+      "placedAt": "2026-06-01T14:00:00Z"
+    }
+  ],
+  "encounters": [
+    {
+      "id": "ENC-JM-301",
+      "date": "2026-05-28",
+      "type": "Office Visit",
+      "provider": "Dr. Lisa Nguyen, GI",
+      "summary": "71M stable for routine surveillance colonoscopy. No red flag symptoms. Last colonoscopy 2023 with tubular adenoma removed."
+    }
+  ]
+}
